@@ -1,0 +1,14 @@
+<h2>Helooo</h2>
+<app-header></app-header>
+<app-footer></app-footer>
+{{title}}
+
+<button (click)="textIsVisiable = !textIsVisiable">Click</button>
+
+<p *ngIf="textIsVisiable">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, tempora modi? Error debitis a sint facilis doloribus cumque maiores dolores odio! Dolore, illum doloribus fugit eos quis hic assumenda expedita?</p>
+
+<router-outlet></router-outlet>
+
+<a routerLink="/">Home</a>
+<a routerLink="/support">Support</a>
+<a routerLink="/contacts">Contacts</a>
